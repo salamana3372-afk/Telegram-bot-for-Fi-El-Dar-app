@@ -8,10 +8,10 @@ from telegram.ext import (
 )
 
 # البوت هيجيب التوكن من Environment Variable
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8542250749:AAFG3PwuPUqv3yqsXMg-pbxiYAsEnYPLE58")
 
 # ID الجروب اللي هيستقبل الطلبات
-GROUP_ID = -6240305292  # غيره لو عندك ID مختلف
+GROUP_ID = -1003686549523  # غيره لو عندك ID مختلف
 
 # رسالة /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -80,4 +80,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
